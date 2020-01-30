@@ -1,0 +1,31 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  margin: 10px;
+}
+
+header a, header img {
+  height: 100%;
+  width: auto;
+  border-radius: 50%;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+}
+header ul li {
+  padding: 10px;
+}
+
+@media(max-width: 600px) {
+  header {
+    justify-content: center;
+  }
+  header ul {
+    display: none;
+  }
+}
