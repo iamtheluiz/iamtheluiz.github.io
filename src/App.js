@@ -2,6 +2,7 @@ import React from 'react';
 
 // Page components
 import Header from './components/Header';
+import About from './components/About';
 
 function App() {
   const sections = [
@@ -13,6 +14,9 @@ function App() {
   return (
     <>
       <Header sections={sections} />
+      <main>
+        <About />
+      </main>
     </>
   );
 }

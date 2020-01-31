@@ -12,6 +12,9 @@ header a, header img {
   width: auto;
   border-radius: 50%;
 }
+header img {
+  filter: invert(1);
+}
 
 header ul {
   list-style: none;
