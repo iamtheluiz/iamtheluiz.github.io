@@ -8,13 +8,15 @@ export default function Header({ sections }) {
       <a href="/">
         <img src="/favicon.png" alt="Site logo" />
       </a>
-      <ul>
-        {sections.map(section => (
-          <li key={section.id}>
-            <a href={`#${section.id}`}>{section.name}</a>
-          </li>
-        ))}
-      </ul>
+      <nav>
+        <ul>
+          {sections.map(section => (
+            <li key={section.id}>
+              <a href={`#${section.id}`}>{section.name}</a>
+            </li>
+          ))}
+        </ul>
+      </nav>
     </header>
   );
 }
