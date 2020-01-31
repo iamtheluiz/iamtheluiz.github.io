@@ -3,7 +3,7 @@ section#About {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  height: calc(100vh - 80px);
+  min-height: calc(100vh - 80px);
 }
 
 section#About img {
