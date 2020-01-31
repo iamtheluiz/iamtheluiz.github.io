@@ -7,6 +7,7 @@ import projects from './services/projects';
 import Header from './components/Header';
 import About from './components/About';
 import Projects from './components/Projects';
+import Footer from './components/Footer';
 
 function App() {
   const sections = [
@@ -22,6 +23,7 @@ function App() {
         <About />
         <Projects projects={projects} />
       </main>
+      <Footer />
     </>
   );
 }
