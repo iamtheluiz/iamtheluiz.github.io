@@ -6,13 +6,10 @@ import { MdMail } from 'react-icons/md';
 
 import './styles.css';
 
-// Photo
-import photo from '../../assets/profile.jpg';
-
 export default function About() {
   return (
     <section id="About">
-      <img src={photo} alt="Profile" />
+      <img src="https://avatars.githubusercontent.com/u/32724000" alt="Profile" />
       <h1>Luiz Gustavo</h1>
       <p>Cada dia mais impressionado com as portas que a tecnologia está abrindo!</p>
       <ul>
