@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Icons
-import { FaGithub, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { MdMail } from 'react-icons/md';
 
 import './styles.css';
@@ -27,13 +27,8 @@ export default function About() {
           </a>
         </li>
         <li>
-          <a href="mailto:iamtheluiz.dev@gmail.com">
+          <a href="mailto:luiz.s.vasconcellos@gmail.com">
             <MdMail />
-          </a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/iamtheluizvasc/" target="_blank" rel="noopener noreferrer">
-            <FaInstagram />
           </a>
         </li>
       </ul>

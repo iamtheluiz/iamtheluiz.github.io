@@ -13,7 +13,6 @@ function App() {
   const sections = [
     { name: 'About', id: 'About' },
     { name: 'Projects', id: 'Projects' },
-    { name: 'Social Media', id: 'SocialMedia' }
   ];
 
   return (
