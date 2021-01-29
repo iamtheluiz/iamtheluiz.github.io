@@ -9,11 +9,11 @@ export default function Projects({ projects }) {
       <ul>
         {projects.map(project => (
           <li key={project.repository} className="card">
-            <a href={project.repository} target="_blank" rel="noopener noreferrer">
+            <a href={project.website ? project.website : project.repository} target="_blank" rel="noopener noreferrer">
               <h3>{project.name}</h3>
               <p>{project.description}</p>
               <footer>
-                <div className="circle"></div> {project.technology}
+                <div className="circle" style={{ backgroundColor: project.color }}></div> {project.technology}
               </footer>
             </a>
           </li>

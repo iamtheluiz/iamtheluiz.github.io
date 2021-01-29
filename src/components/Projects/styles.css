@@ -34,7 +34,7 @@ li.card footer {
   margin-top: 10px;
 }
 li.card div.circle {
-  background-color: rgb(240, 219, 79);
+  background-color: grey;
   width: 18px;
   height: 18px;
   border-radius: 9px;
