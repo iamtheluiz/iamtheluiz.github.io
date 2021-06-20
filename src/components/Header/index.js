@@ -4,7 +4,7 @@ import './styles.css';
 
 export default function Header({ sections }) {
   return (
-    <header>
+    <header className="container">
       <a href="/">
         <img src="/favicon.png" alt="Site logo" />
       </a>

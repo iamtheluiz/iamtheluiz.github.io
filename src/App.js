@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Site data
-import projects from './services/projects';
+import repos from './services/repos';
 
 // Page components
 import Header from './components/Header';
@@ -20,7 +20,7 @@ function App() {
       <Header sections={sections} />
       <main>
         <About />
-        <Projects projects={projects} />
+        <Projects repos={repos} />
       </main>
       <Footer />
     </>

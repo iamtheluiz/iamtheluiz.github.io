@@ -7,6 +7,10 @@ section#Projects h2 {
   text-align: center;
   margin-bottom: 5px;
 }
+section#Projects h3.more-repositories {
+  font-size: 24px;
+  margin: 16px 0px;
+}
 
 section#Projects ul {
   list-style: none;
@@ -30,6 +34,7 @@ li.card h3 {
 }
 li.card footer {
   display: flex;
+  flex: 1;
   flex-direction: row;
   margin-top: 10px;
 }
@@ -40,14 +45,17 @@ li.card div.circle {
   border-radius: 9px;
   margin-right: 5px;
 }
-
-@media(max-width: 600px) {
-  section#Projects ul {
-    grid-template-columns: 1fr;
-  }
+section#Projects a.github-repositories {
+  margin: 16px;
 }
+
 @media(max-width: 900px) {
   section#Projects ul {
     grid-template-columns: 1fr 1fr;
+  }
+}
+@media(max-width: 600px) {
+  section#Projects ul {
+    grid-template-columns: 1fr;
   }
 }

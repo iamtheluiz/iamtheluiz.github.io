@@ -19,6 +19,16 @@ body, input, button {
 main {
   width: 100%;
 }
+.container {
+  max-width: 1132px;
+  padding: 0px 16px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
 
 a {
   text-decoration: none;
