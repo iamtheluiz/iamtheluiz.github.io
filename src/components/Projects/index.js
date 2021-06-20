@@ -5,7 +5,7 @@ import './styles.css';
 export default function Projects({ projects }) {
   return (
     <section id="Projects">
-      <h2>Projects</h2>
+      <h2>Projetos</h2>
       <ul>
         {projects.map(project => (
           <li key={project.repository} className="card">

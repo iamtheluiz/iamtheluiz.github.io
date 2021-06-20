@@ -11,8 +11,8 @@ import Footer from './components/Footer';
 
 function App() {
   const sections = [
-    { name: 'About', id: 'About' },
-    { name: 'Projects', id: 'Projects' },
+    { name: 'Sobre', id: 'About' },
+    { name: 'Projetos', id: 'Projects' },
   ];
 
   return (
