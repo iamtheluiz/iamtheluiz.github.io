@@ -1,5 +1,26 @@
 module.exports = [
   {
+    name: 'gantt-organon',
+    description: '📅 Create a schedule and export it. Preview: https://youtu.be/Q1XNVBbzXuw',
+    technology: 'Typescript',
+    repository: 'https://github.com/iamtheluiz/gantt-organon',
+    color: '#2b7489'
+  },
+  {
+    name: 'taiga',
+    description: '🐯 Taiga is a speech recognition app that executes registered voice commands.',
+    technology: 'Typescript',
+    repository: 'https://github.com/iamtheluiz/taiga',
+    color: '#2b7489'
+  },
+  {
+    name: 'hydro-registry',
+    description: '🗺️ Site para cadastrar registros e hidrantes em um mapa interativo.',
+    technology: 'TypeScript',
+    repository: 'https://github.com/iamtheluiz/hydro-registry',
+    color: '#f0db4f'
+  },
+  {
     name: 'Harmonist',
     description: '🎵 Harmonist is a application that helps you editing metadata from audio files',
     technology: 'Typescript',
@@ -18,28 +39,6 @@ module.exports = [
     description: 'Projeto desenvolvido na Semana Omnistack 11 da Rocketseat',
     technology: 'Javascript',
     repository: 'https://github.com/iamtheluiz/BeTheHero',
-    color: '#f0db4f'
-  },
-  {
-    name: 'NLW-1.0',
-    description: 'Next Level Week 1.0 - Rocketseat',
-    technology: 'Typescript',
-    repository: 'https://github.com/iamtheluiz/NLW-1.0',
-    color: '#2b7489'
-  },
-  {
-    name: 'proffy',
-    description: 'Projeto desenvolvido na "Next Level Week #2" da Rocketseat',
-    technology: 'Typescript',
-    repository: 'https://github.com/iamtheluiz/NLW-1.0',
-    color: '#2b7489'
-  },
-  {
-    name: 'estudoPandemia',
-    description: 'Um estudo sobre o impacto da pandemia na baixada santista',
-    technology: 'Javascript',
-    repository: 'https://github.com/iamtheluiz/estudoPandemia',
-    website: 'https://pandemia-baixada.vercel.app/',
     color: '#f0db4f'
   }
 ]
