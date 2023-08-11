@@ -8,9 +8,13 @@
 .project-item.inverted {
   flex-direction: row-reverse;
 }
-.project-item img {
+.project-item div.cover {
   display: flex;
   width: 46%;
+}
+.project-item div.cover img {
+  display: flex;
+  width: 100%;
   border-radius: 4px;
   box-shadow: 0px 2px 4px black;
 }
