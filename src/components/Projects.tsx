@@ -4,9 +4,8 @@ import { Button } from "./ui/button";
 export function Projects() {
 	return (
 
-		<section id="projects" className="container max-w-5xl mx-auto py-12 md:py-16 lg:py-20">
-			<h2 className="font-bold text-3xl md:text-5xl mb-12">My Projects
-			</h2>
+		<section id="projects" className="container max-w-5xl mx-auto py-6 md:py-8 lg:py-10">
+			<h2 className="font-bold text-3xl md:text-5xl mb-12">Meus Projetos</h2>
 			<div className="grid grid-cols-1 gap-4 lg:gap-6">
 				<div className="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col lg:flex-row">
 					<div className="w-full lg:w-1/3 p-2 flex items-center">
