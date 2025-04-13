@@ -6,6 +6,22 @@ export function Work() {
         <div className="grid gap-1 relative">
           <div className="aspect-square w-3 bg-gray-900 rounded-full absolute left-0 translate-x-[-29.5px] z-10 top-2 dark:bg-gray-50">
           </div>
+          <h4 className="text-xl font-medium">Analista de Frontend -
+            <a target="_blank" className="ml-2 text-cyan-700" href="https://www.totvs.com/">TOTVS</a>
+          </h4>
+          <div className="text-gray-500 dark:text-gray-400">Março de 2025 - Atualmente
+          </div>
+          <div className="mt-2">
+            <h6 className="font-medium">Responsabilidades Principais:</h6>
+            <ul className="text-gray-500 text-sm list-disc pl-4">
+              <li>Desenvolvimento e manutenção da biblioteca open source <a target="_blank" className="text-cyan-700" href="https://po-ui.io/">PO-UI</a></li>
+              <li>Crio testes unitários e end-to-end para garantia da entrega e realização de testes de regressão</li>
+            </ul>
+          </div>
+        </div>
+        <div className="grid gap-1 relative">
+          <div className="aspect-square w-3 bg-gray-900 rounded-full absolute left-0 translate-x-[-29.5px] z-10 top-2 dark:bg-gray-50">
+          </div>
           <h4 className="text-xl font-medium">Desenvolvedor Full Stack -
             <a target="_blank" className="ml-2 text-cyan-700" href="https://konia.com.br/">Konia Tecnologia</a>
           </h4>

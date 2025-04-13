@@ -6,6 +6,20 @@ export function Education() {
         <div className="grid gap-1 relative">
           <div className="aspect-square w-3 bg-gray-900 rounded-full absolute left-0 translate-x-[-29.5px] z-10 top-2 dark:bg-gray-50">
           </div>
+          <h4 className="text-xl font-medium">Gestão da Tecnologia da Informação</h4>
+          <h5 className="font-medium">UNINTER - Centro Universitário Internacional</h5>
+          <div className="text-gray-500 dark:text-gray-400">Março de 2024 - Atualmente
+          </div>
+          <ul className="text-gray-500 text-sm list-disc pl-4">
+            <li>Fundamentos de tecnologia da informação</li>
+            <li>Gestão de projetos e metodologias ágeis</li>
+            <li>Segurança da informação e governança de TI</li>
+            <li>Banco de dados e análise de dados</li>
+          </ul>
+        </div>
+        <div className="grid gap-1 relative">
+          <div className="aspect-square w-3 bg-gray-900 rounded-full absolute left-0 translate-x-[-29.5px] z-10 top-2 dark:bg-gray-50">
+          </div>
           <h4 className="text-xl font-medium">Bacharelado em Engenharia da Computação</h4>
           <h5 className="font-medium">Universidade São Judas Tadeu</h5>
           <div className="text-gray-500 dark:text-gray-400">Janeiro de 2019 - Dezembro de 2023
