@@ -9,7 +9,7 @@ export function Projects() {
 			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-4 lg:gap-6">
 				<div className="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col lg:flex-row">
 					<div className="w-full lg:w-1/3 p-2 flex items-center">
-						<img alt="Project 1" loading="lazy" decoding="async" data-nimg="1" className="w-80 min-w-full rounded-md object-cover" src="https://raw.githubusercontent.com/iamtheluiz/gantt-organon/main/docs/screenshots/project.png" />
+						<img alt="Screenshot do projeto Gantt Organon" loading="lazy" decoding="async" data-nimg="1" className="w-80 min-w-full rounded-md object-cover" src="https://raw.githubusercontent.com/iamtheluiz/gantt-organon/main/docs/screenshots/project.png" />
 					</div>
 					<div className="w-full lg:w-2/3">
 						<div className="flex flex-col space-y-1.5 p-6">
@@ -43,7 +43,7 @@ export function Projects() {
 				</div>
 				<div className="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col lg:flex-row">
 					<div className="w-full lg:w-1/3 p-2 flex items-center">
-						<img alt="Project 2" loading="lazy" decoding="async" data-nimg="2" className="w-80 min-w-full rounded-md object-cover" src="https://raw.githubusercontent.com/iamtheluiz/hydro-registry/main/.github/home.png" />
+						<img alt="Screenshot do projeto Hydro Registry" loading="lazy" decoding="async" data-nimg="2" className="w-80 min-w-full rounded-md object-cover" src="https://raw.githubusercontent.com/iamtheluiz/hydro-registry/main/.github/home.png" />
 					</div>
 					<div className="w-full lg:w-2/3">
 						<div className="flex flex-col space-y-1.5 p-6">
@@ -77,7 +77,7 @@ export function Projects() {
 				</div>
 				<div className="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col lg:flex-row">
 					<div className="w-full lg:w-1/3 p-2 flex items-center">
-						<img alt="Project 3" loading="lazy" decoding="async" data-nimg="1" className="w-80 min-w-full rounded-md object-cover" src="https://raw.githubusercontent.com/iamtheluiz/cinemais-admin/main/docs/screenshots/index.png" />
+						<img alt="Screenshot do projeto Cinemais Admin" loading="lazy" decoding="async" data-nimg="1" className="w-80 min-w-full rounded-md object-cover" src="https://raw.githubusercontent.com/iamtheluiz/cinemais-admin/main/docs/screenshots/index.png" />
 					</div>
 					<div className="w-full lg:w-2/3">
 						<div className="flex flex-col space-y-1.5 p-6">
@@ -112,7 +112,7 @@ export function Projects() {
 				</div>
 				<div className="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col lg:flex-row">
 					<div className="w-full lg:w-1/3 p-2 flex items-center">
-						<img alt="Project 3" loading="lazy" decoding="async" data-nimg="1" className="w-80 min-w-full rounded-md object-cover" src="https://raw.githubusercontent.com/iamtheluiz/taiga/master/.github/taiga.png" />
+						<img alt="Screenshot do projeto Taiga" loading="lazy" decoding="async" data-nimg="1" className="w-80 min-w-full rounded-md object-cover" src="https://raw.githubusercontent.com/iamtheluiz/taiga/master/.github/taiga.png" />
 					</div>
 					<div className="w-full lg:w-2/3">
 						<div className="flex flex-col space-y-1.5 p-6">

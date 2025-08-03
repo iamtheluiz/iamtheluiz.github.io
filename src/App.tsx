@@ -6,13 +6,13 @@ import { Work } from "./components/Work"
 
 function App() {
   return (
-    <>
+    <main id="main-content" role="main">
       <Intro />
       <Work />
       <Projects />
       <Education />
       <Certification />
-    </>
+    </main>
   )
 }
 
