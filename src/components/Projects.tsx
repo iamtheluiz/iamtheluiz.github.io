@@ -25,14 +25,14 @@ export function Projects() {
 						</div>
 						<div className="flex items-center p-6 pt-0">
 							<div className="grid grid-cols-2 w-full gap-3">
-								<a target="_blank" rel="noreferrer" href="https://iamtheluiz.github.io/gantt-organon">
-									<Button size="default" variant="outline" className="w-full">
+								<a target="_blank" rel="noopener noreferrer" href="https://iamtheluiz.github.io/gantt-organon" style={{ textDecoration: 'underline' }}>
+									<Button size="default" variant="outline" className="w-full" aria-label="Acessar Website do projeto Gantt Organon">
 										<Globe />
 										Website
 									</Button>
 								</a>
-								<a target="_blank" rel="noreferrer" href="https://github.com/iamtheluiz/gantt-organon">
-									<Button size="default" variant="outline" className="w-full">
+								<a target="_blank" rel="noopener noreferrer" href="https://github.com/iamtheluiz/gantt-organon" style={{ textDecoration: 'underline' }}>
+									<Button size="default" variant="outline" className="w-full" aria-label="Acessar repositório do projeto Gantt Organon">
 										<Github />
 										Repositório
 									</Button>
@@ -59,14 +59,14 @@ export function Projects() {
 						</div>
 						<div className="flex items-center p-6 pt-0">
 							<div className="grid grid-cols-2 w-full gap-3">
-								<a target="_blank" rel="noreferrer" href="https://hydro-register.web.app/">
-									<Button size="default" variant="outline" className="w-full">
+								<a target="_blank" rel="noopener noreferrer" href="https://hydro-register.web.app/" style={{ textDecoration: 'underline' }}>
+									<Button size="default" variant="outline" className="w-full" aria-label="Acessar Website do projeto Hydro Registry">
 										<Globe />
 										Website
 									</Button>
 								</a>
-								<a target="_blank" rel="noreferrer" href="https://github.com/iamtheluiz/hydro-registry">
-									<Button size="default" variant="outline" className="w-full">
+								<a target="_blank" rel="noopener noreferrer" href="https://github.com/iamtheluiz/hydro-registry" style={{ textDecoration: 'underline' }}>
+									<Button size="default" variant="outline" className="w-full" aria-label="Acessar repositório do projeto Hydro Registry">
 										<Github />
 										Repositório
 									</Button>
@@ -129,14 +129,14 @@ export function Projects() {
 						</div>
 						<div className="flex items-center p-6 pt-0">
 							<div className="grid grid-cols-2 w-full gap-3">
-								<a target="_blank" rel="noreferrer" href="https://github.com/iamtheluiz/taiga">
-									<Button size="default" variant="outline" className="w-full">
+								<a target="_blank" rel="noopener noreferrer" href="https://github.com/iamtheluiz/taiga" style={{ textDecoration: 'underline' }}>
+									<Button size="default" variant="outline" className="w-full" aria-label="Acessar Website do projeto Taiga">
 										<Globe />
 										Website
 									</Button>
 								</a>
-								<a target="_blank" rel="noreferrer" href="https://github.com/iamtheluiz/taiga">
-									<Button size="default" variant="outline" className="w-full">
+								<a target="_blank" rel="noopener noreferrer" href="https://github.com/iamtheluiz/taiga" style={{ textDecoration: 'underline' }}>
+									<Button size="default" variant="outline" className="w-full" aria-label="Acessar repositório do projeto Taiga">
 										<Github />
 										Repositório
 									</Button>

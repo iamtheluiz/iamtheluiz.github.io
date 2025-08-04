@@ -6,8 +6,8 @@ export function Education() {
         <div className="grid gap-1 relative">
           <div className="aspect-square w-3 bg-gray-900 rounded-full absolute left-0 translate-x-[-29.5px] z-10 top-2 dark:bg-gray-50">
           </div>
-          <h4 className="text-xl font-medium">Gestão da Tecnologia da Informação</h4>
-          <h5 className="font-medium">UNINTER - Centro Universitário Internacional</h5>
+          <h3 className="text-xl font-medium">Gestão da Tecnologia da Informação</h3>
+          <h4 className="font-medium">UNINTER - Centro Universitário Internacional</h4>
           <div className="text-gray-500 dark:text-gray-400">Março de 2024 - Atualmente
           </div>
           <ul className="text-gray-500 text-sm list-disc pl-4">
@@ -20,8 +20,8 @@ export function Education() {
         <div className="grid gap-1 relative">
           <div className="aspect-square w-3 bg-gray-900 rounded-full absolute left-0 translate-x-[-29.5px] z-10 top-2 dark:bg-gray-50">
           </div>
-          <h4 className="text-xl font-medium">Bacharelado em Engenharia da Computação</h4>
-          <h5 className="font-medium">Universidade São Judas Tadeu</h5>
+          <h3 className="text-xl font-medium">Bacharelado em Engenharia da Computação</h3>
+          <h4 className="font-medium">Universidade São Judas Tadeu</h4>
           <div className="text-gray-500 dark:text-gray-400">Janeiro de 2019 - Dezembro de 2023
           </div>
           <ul className="text-gray-500 text-sm list-disc pl-4">
@@ -33,8 +33,8 @@ export function Education() {
         <div className="grid gap-1 relative">
           <div className="aspect-square w-3 bg-gray-900 rounded-full absolute left-0 translate-x-[-29.5px] z-10 top-2 dark:bg-gray-50">
           </div>
-          <h4 className="text-xl font-medium">Técnico em Informática para Internet</h4>
-          <h5 className="font-medium">ETEC - Centro Paula Souza</h5>
+          <h3 className="text-xl font-medium">Técnico em Informática para Internet</h3>
+          <h4 className="font-medium">ETEC - Centro Paula Souza</h4>
           <div className="text-gray-500 dark:text-gray-400">Janeiro de 2016 - Dezembro de 2018
           </div>
           <ul className="text-gray-500 text-sm list-disc pl-4">

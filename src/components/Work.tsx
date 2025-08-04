@@ -6,15 +6,15 @@ export function Work() {
         <div className="grid gap-1 relative">
           <div className="aspect-square w-3 bg-gray-900 rounded-full absolute left-0 translate-x-[-29.5px] z-10 top-2 dark:bg-gray-50">
           </div>
-          <h4 className="text-xl font-medium">Analista de Frontend -
-            <a target="_blank" rel="noopener noreferrer" className="ml-2 text-cyan-700" href="https://www.totvs.com/">Site da TOTVS</a>
-          </h4>
+          <h3 className="text-xl font-medium">Analista de Frontend -
+            <a target="_blank" rel="noopener noreferrer" className="ml-2 text-cyan-700" href="https://www.totvs.com/" style={{ textDecoration: 'underline' }} aria-label="Site da TOTVS">TOTVS</a>
+          </h3>
           <div className="text-gray-500 dark:text-gray-400">Março de 2025 - Atualmente
           </div>
           <div className="mt-2">
             <h6 className="font-medium">Responsabilidades Principais:</h6>
             <ul className="text-gray-500 text-sm list-disc pl-4">
-              <li>Desenvolvimento e manutenção da biblioteca open source <a target="_blank" rel="noopener noreferrer" className="text-cyan-700" href="https://po-ui.io/">Site do PO-UI</a></li>
+              <li>Desenvolvimento e manutenção da biblioteca open source <a target="_blank" rel="noopener noreferrer" className="text-cyan-700 underline" href="https://po-ui.io/" aria-label="Site do PO-UI">PO-UI</a></li>
               <li>Crio testes unitários e end-to-end para garantia da entrega e realização de testes de regressão</li>
             </ul>
           </div>
@@ -22,9 +22,9 @@ export function Work() {
         <div className="grid gap-1 relative">
           <div className="aspect-square w-3 bg-gray-900 rounded-full absolute left-0 translate-x-[-29.5px] z-10 top-2 dark:bg-gray-50">
           </div>
-          <h4 className="text-xl font-medium">Desenvolvedor Full Stack -
-            <a target="_blank" rel="noopener noreferrer" className="ml-2 text-cyan-700" href="https://konia.com.br/">Site da Konia Tecnologia</a>
-          </h4>
+          <h3 className="text-xl font-medium">Desenvolvedor Full Stack -
+            <a target="_blank" rel="noopener noreferrer" className="ml-2 text-cyan-700" href="https://konia.com.br/" style={{ textDecoration: 'underline' }} aria-label="Site da Konia Tecnologia">Konia Tecnologia</a>
+          </h3>
           <div className="text-gray-500 dark:text-gray-400">Janeiro de 2023 - Janeiro de 2024
           </div>
           <div className="mt-2">
@@ -41,9 +41,9 @@ export function Work() {
         <div className="grid gap-1 relative">
           <div className="aspect-square w-3 bg-gray-900 rounded-full absolute left-0 translate-x-[-29.5px] z-10 top-2 dark:bg-gray-50">
           </div>
-          <h4 className="text-xl font-medium">DevOps -
-            <a target="_blank" rel="noopener noreferrer" className="ml-2 text-cyan-700" href="https://konia.com.br/">Site da Konia Tecnologia</a>
-          </h4>
+          <h3 className="text-xl font-medium">DevOps -
+            <a target="_blank" rel="noopener noreferrer" className="ml-2 text-cyan-700" href="https://konia.com.br/" style={{ textDecoration: 'underline' }} aria-label="Site da Konia Tecnologia">Konia Tecnologia</a>
+          </h3>
           <div className="text-gray-500 dark:text-gray-400">Março de 2022 - Janeiro de 2023</div>
           <div className="mt-2">
             <h6 className="font-medium">Responsabilidades Principais:</h6>
